@@ -1,0 +1,10 @@
+---
+- name: Provision CouchDB Playground
+  hosts: couchdb
+  sudo: yes
+  user: root
+  roles:
+      - role: BashEnvironment
+        users:
+            - { homedir: "{{ homedir }}", user: "{{ user }}" }
+      - CouchDB

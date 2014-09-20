@@ -1,0 +1,18 @@
+{
+    "minimum-stability": "dev",
+
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "http://qafoogalaxy.github.io"
+        }
+    ],
+
+    "require": {
+        "qafoogalaxy/bashenvironment": "dev-master",
+        "qafoogalaxy/couchdb": "dev-master"
+    }
+}
